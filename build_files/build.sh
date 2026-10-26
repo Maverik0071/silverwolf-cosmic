@@ -5,7 +5,7 @@ set -ouex pipefail
 # Copy the contents of system_files/ of the git repo to /
 cp -avf "/ctx/system_files"/. /
 
-#dnf5 -y install dnf5-plugins
+dnf5 -y install dnf5-plugins
 #dnf5 -y copr enable tohur/RakuOS fedora-${FEDORA_VERSION}-x86_64
 #dnf5 -y copr enable bieszczaders/kernel-cachyos fedora-${FEDORA_VERSION}-x86_64
 #dnf5 -y copr enable bieszczaders/kernel-cachyos-addons fedora-${FEDORA_VERSION}-x86_64
@@ -13,8 +13,8 @@ cp -avf "/ctx/system_files"/. /
 #dnf5 -y copr enable ilyaz/LACT fedora-${FEDORA_VERSION}-x86_64
 #dnf5 -y copr enable garecrow/ExtensionManager fedora-${FEDORA_VERSION}-x86_64
 #dnf5 -y copr enable wehagy/protonplus fedora-${FEDORA_VERSION}-x86_64
-#dnf5 -y install --nogpgcheck --repofrompath 'terra,https://repos.fyralabs.com/terra$releasever' terra-release
-#dnf5 -y config-manager --add-repo https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo
+dnf5 -y install --nogpgcheck --repofrompath 'terra,https://repos.fyralabs.com/terra$releasever' terra-release
+dnf5 -y config-manager --add-repo https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo
 
 
 #dnf5 -y config-manager addrepo --from-repofile=https://negativo17.org/repos/fedora-nvidia.repo
