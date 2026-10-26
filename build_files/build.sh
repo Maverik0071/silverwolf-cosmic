@@ -5,7 +5,7 @@ set -ouex pipefail
 # Copy the contents of system_files/ of the git repo to /
 cp -avf "/ctx/system_files"/. /
 
-dnf5 -y install dnf5-plugins
+#dnf5 -y install dnf5-plugins
 #dnf5 -y copr enable tohur/RakuOS fedora-${FEDORA_VERSION}-x86_64
 #dnf5 -y copr enable bieszczaders/kernel-cachyos fedora-${FEDORA_VERSION}-x86_64
 #dnf5 -y copr enable bieszczaders/kernel-cachyos-addons fedora-${FEDORA_VERSION}-x86_64
