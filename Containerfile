@@ -13,7 +13,8 @@ COPY system_files /system_files
 #FROM quay.io/rakuos/rakuos-<desktop>[-nvidia|-nvidia-legacy][-v3|-v4]:<latest|staging>
 # FROM quay.io/rakuos/rakuos-hyprland-nvidia-legacy-v3:latest
 #FROM ghcr.io/ublue-os/bluefin-dx:latest
-FROM ghcr.io/ublue-os/cosmic-atomic-main:latest
+#FROM ghcr.io/ublue-os/cosmic-atomic-main:latest
+FROM ghcr.io/ericrocha97/bluefin-cosmic-dx
 
 
 
