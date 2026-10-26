@@ -16,6 +16,7 @@ COPY system_files /system_files
 FROM ghcr.io/ublue-os/cosmic-atomic-main:latest
 #FROM ghcr.io/ericrocha97/bluefin-cosmic-dx:latest
 #FROM ghcr.io/spiteful-fox/bazzite-cosmic:latest
+ FROM ghcr.io/koitorin/bazzite-cosmic:latest
 
 
 
