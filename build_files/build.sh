@@ -144,26 +144,26 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 # dnf5 -y install package
 # Disable COPRs so they don't end up enabled on the final image:
 # dnf5 -y copr disable ublue-os/staging
-dnf5 -y copr enable lionheartp/Hyprland
-dnf5 -y install awww
+#dnf5 -y copr enable lionheartp/Hyprland
+#dnf5 -y install awww
 #dnf5 -y install hyprland
 #dnf5 -y install dms
 #dnf5 -y install dms-greeter
 #dnf5 -y install quickshell
-dnf5 -y install hyprland-guiutils
+#dnf5 -y install hyprland-guiutils
 #dnf5 -y install hyprland-protocols
-dnf5 -y install hyprpaper
-dnf5 -y install nwg-look
-dnf5 -y copr disable lionheartp/Hyprland
+#dnf5 -y install hyprpaper
+#dnf5 -y install nwg-look
+#dnf5 -y copr disable lionheartp/Hyprland
 
-dnf5 -y copr enable erikreider/packages
-dnf5 -y install autotiling
-dnf5 -y copr disable erikreider/packages
+#dnf5 -y copr enable erikreider/packages
+#dnf5 -y install autotiling
+#dnf5 -y copr disable erikreider/packages
 
-dnf5 -y copr enable avengemedia/danklinux
-dnf5 -y install dms
-dnf5 -y install quickshell
-dnf5 -y copr disable avengemedia/danklinux
+#dnf5 -y copr enable avengemedia/danklinux
+#dnf5 -y install dms
+#dnf5 -y install quickshell
+#dnf5 -y copr disable avengemedia/danklinux
 
 #dnf5 copr enable heus-sueh/hyprland
 #dnf5 -y install swww
