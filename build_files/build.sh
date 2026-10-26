@@ -81,7 +81,7 @@ dnf5 install -y jgmenu-gtktheme
 dnf5 install -y jgmenu-pmenu
 dnf5 install -y lm_sensors
 dnf5 install -y lsd
-dnf5 install -y neovim
+#dnf5 install -y neovim
 dnf5 install -y NetworkManager-tui
 dnf5 install -y picom
 dnf5 install -y quickshell
